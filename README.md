@@ -9,6 +9,8 @@ To start your Phoenix server:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
+Api docs -> visit [`localhost:4000/api/graphiql`](http://localhost:4000/api/graphiql) from your browser.
+
 Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
 ## Learn more
