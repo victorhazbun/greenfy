@@ -20,7 +20,7 @@ defmodule Greenfy.Mixfile do
   def application do
     [
       mod: {Greenfy.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :absinthe_plug]
     ]
   end
 
@@ -41,7 +41,9 @@ defmodule Greenfy.Mixfile do
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
-      {:plug_cowboy, "~> 1.0"}
+      {:plug_cowboy, "~> 1.0"},
+      {:absinthe, "~> 1.4"},
+      {:absinthe_plug, "~> 1.4"}
     ]
   end
 
