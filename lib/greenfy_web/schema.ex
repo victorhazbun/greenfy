@@ -1,7 +1,7 @@
 defmodule GreenfyWeb.Schema do
   use Absinthe.Schema
 
-  import_types Greenfy.Schema.DataTypes
+  import_types GreenfyWeb.Schema.DataTypes
 
   query do
     @desc "Get a list of events"
